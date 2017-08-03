@@ -158,6 +158,7 @@
 								}
 						]
 				},
+				
 				{
 						"description": "Move cursor to beginning/end of line",
 						"manipulators": [
