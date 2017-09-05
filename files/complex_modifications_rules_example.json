@@ -158,7 +158,7 @@
 								}
 						]
 				},
-				
+
 				{
 						"description": "Move cursor to beginning/end of line",
 						"manipulators": [
@@ -180,11 +180,30 @@
 														"key_code": "right_arrow",
 														"modifiers": [
 															"left_command"
-														]	
+														]
 												}
 										]
-								}
-						]
+                },
+								{
+                  "type": "basic",
+                  "from": {
+                      "key_code": "h",
+                      "modifiers": {
+                          "mandatory": [
+                              "left_control"
+                          ]
+                      }
+                  },
+                  "to": [
+                      {
+                          "key_code": "left_arrow",
+                          "modifiers": [
+                            "left_command"
+                          ]
+                      }
+                  ]
+              }
+          ]
 				}
 		]
 }
